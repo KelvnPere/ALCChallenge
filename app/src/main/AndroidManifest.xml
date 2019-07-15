@@ -15,10 +15,7 @@
            android:label="About Alc"
         >
         </activity>
-        <activity android:name=".MyProfile"
-          android:label="My Profile"
-        >
-        </activity>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -26,6 +23,13 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".MyProfile1"
+           android:label="My Profile"
+        >
+
+        </activity>
+
+
     </application>
 
 </manifest>

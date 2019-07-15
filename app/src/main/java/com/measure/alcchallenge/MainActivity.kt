@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
 //        My Profile
         button_my_profile.setOnClickListener(View.OnClickListener {
-            val intent = Intent(this, MyProfile::class.java)
+            val intent = Intent(this, MyProfile1::class.java)
             startActivity(intent)
         })
 
